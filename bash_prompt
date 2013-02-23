@@ -1,0 +1,28 @@
+#-------------------------------------------------------------------------------
+# Prompt
+#-------------------------------------------------------------------------------
+RED="\[\033[0;31m\]"
+BROWN="\[\033[0;33m\]"
+GREY="\[\033[0;97m\]"
+GREEN="\[\033[0;32m\]"
+BLUE="\[\033[0;34m\]"
+PS_CLEAR="\[\033[0m\]"
+SCREEN_ESC="\[\033k\033\134\]"
+
+COLOR1="${BLUE}"
+COLOR2="${BLUE}"
+P="\$"
+
+prompt_color() {
+    PS1="${GREEN}\W\$(parse_git_branch) â ${GREY}"
+    PS2="\[[33;1m\]continue \[[0m[1m\]> "
+}
+
+parse_git_branch() {
+    [ -d .git ] || return 1
+    git symbolic-ref HEAD 2> /dev/null | sed 's#\(.*\)\/\([^\/]*\)$# \2#'
+}
+
+# Set default prompt if interactive
+test -n "$PS1" &&
+prompt_color
