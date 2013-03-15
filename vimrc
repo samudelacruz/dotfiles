@@ -1,7 +1,10 @@
 set nocompatible
 filetype off
 
-
+" OS Detection
+if has('win32') || has('win64')
+    let $OS = 'windows'
+endif
 
 set rtp+=~/.vim/bundle/vundle/
 let g:vundle_default_git_proto = 'git'
