@@ -49,6 +49,16 @@ if $OS == 'windows'
     let g:netrw_sftp_cmd = "sftp.exe -P "
     let g:netrw_silent = 1
 endif
+
+" disable arrow keys
+    map <up> <nop>
+    map <down> <nop>
+    map <left> <nop>
+    map <right> <nop>
+    imap <up> <nop>
+    imap <down> <nop>
+    imap <left> <nop>
+    imap <right> <nop>
 " Search for selected text, forwards or backwards.
 vnoremap <silent> * :<C-U>
   \let old_reg=getreg('"')<Bar>let old_regtype=getregtype('"')<CR>
