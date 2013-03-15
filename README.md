@@ -23,8 +23,8 @@ or
 $easy_install rope
 $easy_install pylint
 $easy_install pyflakes
-``
- - Install Vundle, as per their [instructions](https://github.com/gmarik/vundle):
+```
+ - Install Vundle, as per their [instructions](https://github.com/gmarik/vundle) :
 
 ```sh
 $ git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
