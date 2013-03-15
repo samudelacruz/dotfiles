@@ -14,4 +14,4 @@ cp ackrc $HOME/.ackrc
 cp bash_prompt $HOME/.bash_prompt
 cp osx $HOME/.osx #execute with . .osx if you want the defaults check before
 cp inputrc $HOME/.inputrc
-
+cp vimrc $HOME/.vimrc
