@@ -33,7 +33,7 @@ Bundle "tpope/vim-fugitive"
 Bundle "tomtom/tcomment_vim"
 
 " Personal bundles
-Bundle 'mitchellh/vim-misc'
+Bundle 'samudelacruz/vim-misc'
 
 " Turn on filetype plugin and indent loading so that loading the
 " vim-misc stuff below loads the proper files.
