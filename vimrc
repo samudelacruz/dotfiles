@@ -24,7 +24,8 @@ Bundle "vim-scripts/pep8"
 Bundle "alfredodeza/pytest.vim"
 Bundle "fs111/pydoc.vim"
 Bundle "ervandew/supertab"
-Bundle "klen/python-mode"
+Bundle "davidhalter/jedi-vim"
+
 " Other plugins
 Bundle "godlygeek/tabular"
 Bundle "kien/ctrlp.vim"
