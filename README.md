@@ -12,7 +12,7 @@ if python has a + then its ok, if not install it from brew our use [macvim](http
 $ brew install vim
 ```
 
-You will need [pylint](http://www.logilab.org/857) or [pyflakes](https://pypi.python.org/pypi/pyflakes)for install you can do this
+You will need [pylint](http://www.logilab.org/857) or [pyflakes](https://pypi.python.org/pypi/pyflakes) for install you can do this
 
 ```sh
 $ pip install pylint
