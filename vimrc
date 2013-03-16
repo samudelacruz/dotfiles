@@ -21,8 +21,6 @@ Bundle "PProvost/vim-ps1"
 Bundle "rodjek/vim-puppet"
 Bundle "tpope/vim-markdown"
 Bundle "vim-scripts/pep8"
-Bundle "alfredodeza/pytest.vim"
-Bundle "fs111/pydoc.vim"
 Bundle "davidhalter/jedi-vim"
 
 " Other plugins
