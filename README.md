@@ -1,28 +1,27 @@
 ## Instruction for installation
 
 **NOTE**: If you have existing files in `$HOME/.vim` or `$HOME/.vimrc`, make sure you take appropriate backups before performing any of the following steps.
+
 **NOTE**: Be sure your vim is compiled with python support
 
 ```sh
-$vim --version | grep python
+$ vim --version | grep python
 ```
 if python has a + then its ok, if not install it from brew our use [macvim](https://code.google.com/p/macvim/)
 ```sh
-$brew install vim
+$ brew install vim
 ```
 
-You will need [rope library](http://rope.sourceforge.net/index.html) and [pylint](http://www.logilab.org/857) or [pyflakes](https://pypi.python.org/pypi/pyflakes)for install you can do this
+You will need [pylint](http://www.logilab.org/857) or [pyflakes](https://pypi.python.org/pypi/pyflakes)for install you can do this
 
 ```sh
-$pyp install rope
-$pip install pylint
-$pip install pyflakes
+$ pip install pylint
+$ pip install pyflakes
 ```
 or
 ```sh
-$easy_install rope
-$easy_install pylint
-$easy_install pyflakes
+$ easy_install pylint
+$ easy_install pyflakes
 ```
  - Install Vundle, as per their [instructions](https://github.com/gmarik/vundle) :
 
@@ -33,17 +32,17 @@ $ git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
  - Next, get my dotfiles & use install.sh
 
 ```sh
-$git clone git://github.com/samudelacruz/dotfiles.git
-$dotfiles/install.sh
+$ git clone git://github.com/samudelacruz/dotfiles.git
+$ dotfiles/install.sh
 ```
 ##Usage
 
 after install [Vundle](https://github.com/gmarik/vundle) open .vimrc file
 
 ```sh
-$mvim .vimrc
+$ mvim .vimrc
 or
-$vim .vimrc
+$ vim .vimrc
 ```
 and execute this command
 ```sh
