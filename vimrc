@@ -23,7 +23,6 @@ Bundle "tpope/vim-markdown"
 Bundle "vim-scripts/pep8"
 Bundle "alfredodeza/pytest.vim"
 Bundle "fs111/pydoc.vim"
-Bundle "ervandew/supertab"
 Bundle "davidhalter/jedi-vim"
 
 " Other plugins
