@@ -32,6 +32,7 @@ Bundle "mileszs/ack.vim"
 Bundle "scrooloose/syntastic"
 Bundle "tpope/vim-fugitive"
 Bundle "tomtom/tcomment_vim"
+Bundle "SirVer/ultisnips"
 
 " Personal bundles
 Bundle 'samudelacruz/vim-misc'
