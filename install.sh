@@ -1,4 +1,7 @@
 #!/bin/bash
+#######################################################################
+#                  Installation script for dotfiles                   #
+#######################################################################
 
 #get z from rupa´s repo and install at ~/code/z
 mkdir -p $HOME/code/z
